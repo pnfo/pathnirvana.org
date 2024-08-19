@@ -1,0 +1,40 @@
+baseURL: https://pathnirvana.org/
+languageCode: en-us
+title: Path Nirvana Foundation
+theme: PaperMod
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  description: non profit organization website, help sri lanka from california
+  DateFormat: January 2, 2006
+  homeInfoParams:
+    Title: Welcome to Our Website 🙏
+    Content: Path Nirvana Foundation (PNF) is a US registered non profit organization located in California. [Instructions of how to donate](/donate). [More information about PNF](/about). Following are some of our projects.
+  socialIcons: # optional
+    - name: facebook
+      url: https://www.facebook.com/pnfus/
+    - name: github
+      url: https://github.com/pathnirvana/
+    - name: paypal
+      url: https://www.paypal.com/donate?token=xFZMQ4pZLXtrvU5BE9NztjE_jW6RWIpx52U30t0xSAsT2tBgmJkT_7DyqWc4_CSW8A8w7Dj20U1boUji
+    - name: email
+      url: mailto://info@pathnirvana.org
+
+menu:
+  main:
+    - identifier: categories
+      name: Donate
+      url: /donate
+      weight: 10
+    - identifier: tags
+      name: About
+      url: /about
+      weight: 20
+    - identifier: github
+      name: Github
+      url: https://github.com/pnfo/
+      weight: 30
+      
