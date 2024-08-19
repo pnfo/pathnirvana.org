@@ -1,4 +1,5 @@
 baseURL: https://pathnirvana.org/
+relativeURLs: true
 languageCode: en-us
 title: Path Nirvana Foundation
 theme: PaperMod
