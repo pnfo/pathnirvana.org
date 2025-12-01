@@ -1,6 +1,6 @@
 +++
 title = 'Sri Lanka Flood & Landslide Relief 2025'
-date = 2025-12-01T09:10:45+07:00
+date = 2025-11-30T09:10:45+07:00
 draft = false
 +++
 
